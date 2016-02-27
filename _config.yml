@@ -4,7 +4,7 @@
 
 url: http://mikewuaq.github.io
 title: 税月无痕
-subtitle: 开心工作  享受生活
+#subtitle: 开心工作  享受生活
 author: 无痕
 simple_search: https://www.baidu.com/
 description: 纪录工作和生活的点滴
@@ -33,6 +33,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
+tag_dir: blog/tags
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -51,7 +52,7 @@ titlecase: true       # Converts page and post titles to titlecase
 popular_posts_count: 5      # Posts in the sidebar Popular Posts section
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html,custom/asides/weibo.html,custom/asides/douban.html,custom/asides/kuzhan.html,custom/asides/earth.html,asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html,custom/asides/category_list.html,custom/asides/weibo.html,custom/asides/douban.html,custom/asides/kuzhan.html,custom/asides/earth.html,asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
